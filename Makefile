@@ -6,3 +6,12 @@ run-first-tasks:
 
 serve-first-tasks:
 	./bin/firstTasks
+
+build-second-tasks:
+	go build -o bin/secondTasks/main cmd/secondTasks/main.go
+
+run-second-tasks:
+	go run ./cmd/secondTasks
+
+serve-second-tasks:
+	./bin/secondTasks
